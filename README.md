@@ -124,7 +124,7 @@ O deploy é feito facilmente com a **Vercel**:
 ## 📄 Licença
 
 Projeto de uso **whitelabel**.
-Pode ser reutilizado e adaptado conforme necessidade.
+No entanto, não pode ser reutilizado sem autorização.
 
 ---
 
