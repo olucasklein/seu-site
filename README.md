@@ -1,36 +1,139 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Whitelabel Website – Development Showcase
 
-## Getting Started
+Este é um site **whitelabel** desenvolvido para demonstrar serviços de **desenvolvimento web**, podendo ser facilmente adaptado, personalizado e reutilizado como base para diferentes marcas, clientes ou projetos.
 
-First, run the development server:
+O objetivo do projeto é servir como um **site institucional flexível**, apresentando soluções digitais, portfólio e informações de contato de forma moderna e profissional.
+
+<img src="public/img-example.png" width="100%" />
+
+🔗 **Preview:** [https://seu-site-beta.vercel.app/#inicio](https://seu-site-beta.vercel.app/#inicio)
+
+---
+
+## 🚀 Sobre o Projeto
+
+O site foi desenvolvido utilizando **Next.js**, com foco em:
+
+* Performance
+* SEO
+* Escalabilidade
+* Facilidade de customização (whitelabel)
+
+Ele pode ser usado como:
+
+* Site institucional
+* Landing page de serviços
+* Portfólio de desenvolvimento
+* Base para múltiplos clientes (mudando apenas textos, cores e branding)
+
+---
+
+## 🧩 Características Principais
+
+* ✅ Estrutura **whitelabel**, pronta para personalização
+* ✅ Layout moderno e responsivo
+* ✅ Navegação por seções (one-page)
+* ✅ Código limpo e organizado
+* ✅ Otimizado para SEO
+* ✅ Deploy simplificado com Vercel
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Next.js** – Framework React para aplicações web
+* **TypeScript** – Tipagem estática
+* **React** – Biblioteca de UI
+* **Next Font (Geist)** – Fonte otimizada automaticamente
+* **CSS Modules / Tailwind (se aplicável)** – Estilização
+* **Vercel** – Deploy e hospedagem
+
+---
+
+## ▶️ Como Rodar o Projeto Localmente
+
+### 1. Instalar dependências
+
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
+```
+
+### 2. Iniciar servidor de desenvolvimento
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Acessar no navegador
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧱 Estrutura Base
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+app/
+ ├── page.tsx        # Página principal
+ ├── layout.tsx      # Layout global
+ └── globals.css     # Estilos globais
+public/
+ └── assets/         # Imagens e arquivos estáticos
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Customização Whitelabel
 
-## Deploy on Vercel
+Para adaptar o site para outro cliente ou marca:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Alterar textos e seções em `app/page.tsx`
+* Ajustar cores e identidade visual nos estilos
+* Substituir logo e imagens em `/public`
+* Atualizar domínio e metadados de SEO
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🌐 Deploy
+
+O deploy é feito facilmente com a **Vercel**:
+
+1. Conecte o repositório no Vercel
+2. Configure o projeto como Next.js
+3. Deploy automático a cada push
+
+📚 Documentação oficial:
+[https://nextjs.org/docs/deployment](https://nextjs.org/docs/deployment)
+
+---
+
+## 📄 Licença
+
+Projeto de uso **whitelabel**.
+Pode ser reutilizado e adaptado conforme necessidade.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido como base para projetos de **desenvolvimento web profissional**, focado em performance, design e reutilização.
+
+---
+
+**Status:** Em desenvolvimento
+**Versão:** Beta
+**Última atualização:** 2026
