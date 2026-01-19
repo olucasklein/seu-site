@@ -4,7 +4,7 @@ Este é um site **whitelabel** desenvolvido para demonstrar serviços de **desen
 
 O objetivo do projeto é servir como um **site institucional flexível**, apresentando soluções digitais, portfólio e informações de contato de forma moderna e profissional.
 
-<img src="public/img-example.png" width="100%" />
+<img src="public/image-example.png" width="100%" />
 
 🔗 **Preview:** [https://seu-site-beta.vercel.app/#inicio](https://seu-site-beta.vercel.app/#inicio)
 
